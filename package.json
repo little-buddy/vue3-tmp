@@ -1,6 +1,6 @@
 {
   "name": "vue3-tmp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -11,9 +11,12 @@
   "dependencies": {
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
-    "postcss-pxtorem": "^6.0.0",
+    "css-reset-and-normalize": "^2.3.5",
+    "fastclick": "^1.0.6",
+    "lib-flexible": "^0.3.2",
     "vue": "^3.0.0",
     "vue-class-component": "^8.0.0-0",
+    "vue-i18n": "^9.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
   },
@@ -33,6 +36,7 @@
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-typescript": "^5.0.2",
     "@vue/test-utils": "^2.0.0-0",
+    "babel-plugin-import": "^1.13.3",
     "babel-plugin-transform-remove-console": "^6.9.4",
     "chai": "^4.1.2",
     "eslint": "^6.7.2",
@@ -42,6 +46,7 @@
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
     "lint-staged": "^10.5.4",
+    "postcss-plugin-px2rem": "^0.8.1",
     "prettier": "^1.19.1",
     "typescript": "~3.9.3",
     "webpack-bundle-analyzer": "^4.4.0"

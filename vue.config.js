@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const withClearConsole = require('./vue-cofnig-plugins/withClearConsole');
-const withDevServer = require('./vue-cofnig-plugins/withSplitChunks');
+const withDevServer = require('./vue-cofnig-plugins/withDevServer');
 const withExternal = require('./vue-cofnig-plugins/withExternal');
 const withAnalyze = require('./vue-cofnig-plugins/withAnalyze');
 const withUglyImg = require('./vue-cofnig-plugins/withUglyImg');
